@@ -37,7 +37,7 @@ function App() {
 
       <div className="creditsto">
         <p className='ewan'>Directed by: Carlo Perez   </p>
-        <p className='ewan'>Written by: Jana Balingit   </p>
+        <p className='ewan'>Written by: Hera De Castro   </p>
         <p className='ewan'>Film Editor: Alejandro Lacap, Jana Balingit, Jamilla Lacap   </p>
       </div>
       <div className="lahat"><p id='all'>Carlo Perez, Hera De Castro, Jamilla Lacap, Jade Viray, Jana Balingit, Jobaldene Bayla, Paul Manansala, Evo Tegelan, Nathan Anicete, Xavier Suing, Yuri Espinosa</p></div>
