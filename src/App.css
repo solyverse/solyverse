@@ -1,0 +1,363 @@
+
+::-webkit-scrollbar {width: 2px;}::-webkit-scrollbar-track {background: #03081a;}::-webkit-scrollbar-thumb {background: #03081a;}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .title{
+    padding: 2px;
+    background-color: #040b25;
+    border-radius: 50px;
+    animation: fadeInPadding 1s forwards;
+    margin-bottom: 10px;
+    
+    
+  #titles {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    font-family: "Satisfy", cursive;
+    color: azure;
+    font-size: 10vw;
+    margin-bottom: 0;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #cred {
+    font-family: "Handlee", cursive;
+    margin-top: 0;
+    animation: fadeInAnimation 5s ease-in-out forwards;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #titles:hover {
+    text-shadow: 0 0 5px #b1c7c7, 0 0 10px #b1c7c7, 0 0 15px #b1c7c7;
+  }
+
+  #cred:hover {
+    text-shadow: 0 0 10px #b1c7c7, 0 0 20px #b1c7c7, 0 0 30px #b1c7c7;
+  }
+}
+
+  div img.posters {
+    width: 76%;
+  }
+
+
+  div.poster {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.poster img {
+    margin: 2vw;
+    padding: 1.7vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out
+    
+  }
+
+  div.poster img:hover {
+    
+    transform: scale(1.04);
+  }
+  
+
+
+  .creditsto {
+    font-family: "Dosis", sans-serif;
+    font-size: 9px;
+    font-weight: lighter;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    p.ewan {
+      margin: 10px;
+    }
+
+
+  }
+
+
+.lahat {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  font-size: 8px;
+}
+
+
+
+
+
+
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInPadding {
+    from {
+      padding: 0; /* Start with no padding */
+      background-color: rgba(255, 0, 0, 0); /* Start with fully transparent background */
+    }
+    to {
+      padding: 20px; /* End with desired padding */
+      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  .title{
+      padding: 3.2px, 2px;
+      background-color: #040b25;
+      border-radius: 50px;
+      animation: fadeInPadding 1s forwards;
+      margin: 12px;
+      margin-left: 20vw;
+      margin-right: 20vw;
+  #titles {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    font-family: "Satisfy", cursive;
+    color: azure;
+    font-size: 4vw;
+    margin-bottom: 0;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #cred {
+    font-family: "Handlee", cursive;
+    margin-top: 0;
+    animation: fadeInAnimation 5s ease-in-out forwards;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #titles:hover {
+    text-shadow: 0 0 5px #b1c7c7, 0 0 10px #b1c7c7, 0 0 15px #b1c7c7;
+  }
+
+  #cred:hover {
+    text-shadow: 0 0 10px #b1c7c7, 0 0 20px #b1c7c7, 0 0 30px #b1c7c7;
+  }
+}
+
+  div img.posters {
+    width: 30%;
+  }
+
+  div.poster {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.poster img {
+    margin: 2vw;
+    padding: 1.1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out
+    
+  }
+
+  div.poster img:hover {
+    
+    transform: scale(1.04);
+  }
+
+  .creditsto {
+    font-family: "Dosis", sans-serif;
+    font-weight: lighter;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+    p.ewan {
+      margin: 20px;
+    }
+
+
+  }
+
+
+.lahat {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  font-size: small;
+}
+
+
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInPadding {
+    from {
+      padding: 0; /* Start with no padding */
+      background-color: rgba(255, 0, 0, 0); /* Start with fully transparent background */
+    }
+    to {
+      padding: 20px; /* End with desired padding */
+      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .title{
+    padding: 2px;
+    background-color: #040b25;
+    border-radius: 50px;
+    animation: fadeInPadding 1s forwards;
+    margin-bottom: 10px;
+    
+    
+  #titles {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    font-family: "Satisfy", cursive;
+    color: azure;
+    font-size: 10vw;
+    margin-bottom: 0;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #cred {
+    font-family: "Handlee", cursive;
+    margin-top: 0;
+    animation: fadeInAnimation 5s ease-in-out forwards;
+    transition: text-shadow 0.7s ease;
+  }
+
+  #titles:hover {
+    text-shadow: 0 0 5px #b1c7c7, 0 0 10px #b1c7c7, 0 0 15px #b1c7c7;
+  }
+
+  #cred:hover {
+    text-shadow: 0 0 10px #b1c7c7, 0 0 20px #b1c7c7, 0 0 30px #b1c7c7;
+  }
+}
+
+  div img.posters {
+    width: 76%;
+  }
+
+
+  div.poster {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.poster img {
+    margin: 2vw;
+    padding: 1.7vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out
+    
+  }
+
+  div.poster img:hover {
+    
+    transform: scale(1.04);
+  }
+  
+
+
+  .creditsto {
+    font-family: "Dosis", sans-serif;
+    font-size: 9px;
+    font-weight: lighter;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+    p.ewan {
+      margin: 10px;
+    }
+
+
+  }
+
+
+.lahat {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  font-size: 8px;
+}
+
+
+
+
+
+
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInPadding {
+    from {
+      padding: 0; /* Start with no padding */
+      background-color: rgba(255, 0, 0, 0); /* Start with fully transparent background */
+    }
+    to {
+      padding: 20px; /* End with desired padding */
+      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+    }
+  }
+
+}
