@@ -1,6 +1,9 @@
 .creds {
     font-family: "Handlee", cursive;
     flex-direction: column;
+    background-color: rgba(19, 34, 21, 0.274);
+    padding-top: 7px;
+    border-radius: 30px;
 
 }
 

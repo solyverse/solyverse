@@ -72,26 +72,12 @@
   
 
 
-  .creditsto {
-    font-family: "Dosis", sans-serif;
-    font-size: 9px;
-    font-weight: lighter;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-
-    p.ewan {
-      margin: 10px;
-    }
-
-
-  }
-
-
-.lahat {
-  font-family: "Dosis", sans-serif;
-  font-weight: 100;
-  font-size: 8px;
+p {
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2px;
+  background-color: rgb(25, 44, 28);
+  border-radius: 2px;
 }
 
 
@@ -194,7 +180,13 @@
   }
 
 
-
+  p {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+    background-color: rgb(25, 44, 28);
+    border-radius: 2px;
+  }
 
 
 
@@ -296,7 +288,14 @@
 
 
 
-
+  p {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+    background-color: rgb(25, 44, 28);
+    border-radius: 2px;
+    margin-bottom: 3vh;
+  }
 
 
 

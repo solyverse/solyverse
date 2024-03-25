@@ -21,17 +21,7 @@ function App() {
         <img className='posters' src="mainposter.png" alt="mainposter" />
         </div>
 
-        <div className="azr">
-        <img className='posters' src="azr.png" alt="ej" />
-        </div>
-
-        <div className="ej">
-        <img className='posters' src="ej.png" alt="ej" />
-        </div>
-
-        <div className="nik">
-        <img className='posters' src="nik.png" alt="niko" />
-        </div>
+        <p>More posters coming soon...</p>
 
       </div>
 
