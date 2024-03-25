@@ -12,7 +12,7 @@
 @media (max-width: 767px) {
   .title{
     padding: 2px;
-    background-color: #040b25;
+    background-color: #000000;
     border-radius: 50px;
     animation: fadeInPadding 1s forwards;
     margin-bottom: 10px;
@@ -59,7 +59,7 @@
   div.poster img {
     margin: 2vw;
     padding: 1.7vw;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
     border-radius: 30px;
     transition: transform 0.3s ease-in-out
     
@@ -116,7 +116,7 @@
     }
     to {
       padding: 20px; /* End with desired padding */
-      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+      background-color: rgb(53, 94, 59); /* End with desired background color (fully opaque red in this case) */
     }
   }
 }
@@ -181,8 +181,8 @@
 
   div.poster img {
     margin: 2vw;
-    padding: 1.1vw;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    padding: 1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
     border-radius: 30px;
     transition: transform 0.3s ease-in-out
     
@@ -193,26 +193,8 @@
     transform: scale(1.04);
   }
 
-  .creditsto {
-    font-family: "Dosis", sans-serif;
-    font-weight: lighter;
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-
-    p.ewan {
-      margin: 20px;
-    }
 
 
-  }
-
-
-.lahat {
-  font-family: "Dosis", sans-serif;
-  font-weight: 100;
-  font-size: small;
-}
 
 
 
@@ -232,7 +214,7 @@
     }
     to {
       padding: 20px; /* End with desired padding */
-      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+      background-color: rgb(53, 94, 59); /* End with desired background color (fully opaque red in this case) */
     }
   }
 }
@@ -299,7 +281,7 @@
   div.poster img {
     margin: 2vw;
     padding: 1.7vw;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgb(9, 27, 66));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
     border-radius: 30px;
     transition: transform 0.3s ease-in-out
     
@@ -312,27 +294,8 @@
   
 
 
-  .creditsto {
-    font-family: "Dosis", sans-serif;
-    font-size: 9px;
-    font-weight: lighter;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-
-    p.ewan {
-      margin: 10px;
-    }
 
 
-  }
-
-
-.lahat {
-  font-family: "Dosis", sans-serif;
-  font-weight: 100;
-  font-size: 8px;
-}
 
 
 
