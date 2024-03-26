@@ -15,6 +15,11 @@ function App() {
           <BackgroundMusic />
       </div>
 
+      <div className="trailer">
+
+      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fcarlo.perez.545%2Fvideos%2F1107956150516559%2F&show_text=false&width=560&t=0" width="560" height="300"  scrolling="no"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen></iframe>
+      </div>
+
       <div className='poster'>
 
         <div className='main'>

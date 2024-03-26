@@ -81,9 +81,20 @@ p {
 }
 
 
+.trailer iframe {
+  border: none;
+  outline: none;
+  width: auto;
+  height: 18.5vh;
+  margin: 2vw;
+  padding: 1.1vw;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
+  border-radius: 20px;
+}
 
-
-
+.trailer {
+  margin-top: 30px;
+}
 
 
   @keyframes fadeInAnimation {
@@ -189,6 +200,16 @@ p {
   }
 
 
+
+  .trailer iframe {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin: 2vw;
+    padding: 0.3vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
+    border-radius: 20px;
+  }
 
   @keyframes fadeInAnimation {
     from {
@@ -298,7 +319,16 @@ p {
   }
 
 
-
+  .trailer iframe {
+    border: none;
+    outline: none;
+    width: auto;
+    height: auto;
+    margin: 2vw;
+    padding: 1.1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
+    border-radius: 20px;
+  }
 
 
 
@@ -318,7 +348,7 @@ p {
     }
     to {
       padding: 20px; /* End with desired padding */
-      background-color: rgb(5, 13, 43); /* End with desired background color (fully opaque red in this case) */
+      background-color: rgb(53, 94, 59); /* End with desired background color (fully opaque red in this case) */
     }
   }
 
