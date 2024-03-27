@@ -26,6 +26,21 @@ function App() {
         <img className='posters' src="mainposter.png" alt="mainposter" />
         </div>
 
+        <div className="main2">
+        <img className='posters' src="main2.jpg" alt="mainposter2" />
+        </div>
+        <div className="azr">
+        <img className='posters' src="azr.png" alt="azr" />
+        </div>
+
+        <div className="ej">
+        <img className='posters' src="ej.png" alt="ej" />
+        </div>
+
+        <div className="nik">
+        <img className='posters' src="nik.png" alt="nik" />
+        </div>
+
         <p>More posters coming soon...</p>
 
       </div>
